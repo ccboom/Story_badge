@@ -7,4 +7,5 @@
 2.复制以下代码到开发者工具栏
 
 3.颜色显示为绿色的即为完成的
-![Uploading {33757D03-4707-44AB-87D0-F1B0EC46B87F}.png…]()
+![{33757D03-4707-44AB-87D0-F1B0EC46B87F}](https://github.com/user-attachments/assets/8092982c-6bbb-49dd-afc5-c7004f84a295)
+
