@@ -4,7 +4,7 @@
 1.打开https://www.story.foundation/ecosystem    主页，按F12进入开发者工具
 ![{3B382ACF-8A9E-48E6-AEF6-AB2ED18BD199}](https://github.com/user-attachments/assets/a4276900-812f-422e-a997-6df11e8025f4)
 
-2.复制以下代码到开发者工具栏
+2.复制以下代码到开发者工具栏，填入你自己的EVM地址
 ```
 addr = "";//此处输入地址
 
