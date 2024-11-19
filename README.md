@@ -74,7 +74,7 @@ p().then(() => {
     p2().then(() =>{
         li = li.filter(item => li2.indexOf(item) != -1);
         console.log(li);
-        let imgElement = document.getElementById('radix-:r2n:-content-partners');
+        let imgElement = document.getElementById('radix-:ru:-content-partners');
         child = imgElement.children;
         for (var i = 0; i < child.length; i++) {
              var childElement = child[i];
