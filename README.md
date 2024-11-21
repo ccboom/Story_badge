@@ -1,6 +1,8 @@
 ### Story_badge
 **检查story badge是否完成**
 
+###经过老哥提醒 @lulu，本代码修改id获取为XPATH获取，感谢老哥### 
+
 1.打开https://www.story.foundation/ecosystem    主页，按F12进入开发者工具
 ![{3B382ACF-8A9E-48E6-AEF6-AB2ED18BD199}](https://github.com/user-attachments/assets/a4276900-812f-422e-a997-6df11e8025f4)
 
@@ -74,7 +76,7 @@ p().then(() => {
     p2().then(() =>{
         li = li.filter(item => li2.indexOf(item) != -1);
         console.log(li);
-        let imgElement = document.getElementById('radix-:r9:-content-partners');
+        let imgElement= document.evaluate('//*[@id="radix-:r9:-content-partners"]', document).iterateNext();
         child = imgElement.children;
         for (var i = 0; i < child.length; i++) {
              var childElement = child[i];
@@ -98,4 +100,7 @@ p().then(() => {
 
 3.颜色显示为绿色的即为完成的
 ![{33757D03-4707-44AB-87D0-F1B0EC46B87F}](https://github.com/user-attachments/assets/8092982c-6bbb-49dd-afc5-c7004f84a295)
+
+
+
 
