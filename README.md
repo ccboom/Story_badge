@@ -76,7 +76,7 @@ p().then(() => {
     p2().then(() =>{
         li = li.filter(item => li2.indexOf(item) != -1);
         console.log(li);
-        let imgElement= document.evaluate('//*[@id="radix-:r9:-content-partners"]', document).iterateNext();
+        let imgElement= document.evaluate('/html/body/main/div[2]/div[2]/div/div/div/div/div/div/div[6]', document).iterateNext();
         child = imgElement.children;
         for (var i = 0; i < child.length; i++) {
              var childElement = child[i];
@@ -96,6 +96,7 @@ p().then(() => {
         }
     });
 });
+
 ```
 
 3.颜色显示为绿色的即为完成的
